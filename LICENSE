@@ -1,0 +1,85 @@
+MIT License
+
+Copyright (c) 2026 academic-paper-cn contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+Third-Party Open Source Software Notices and Acknowledgments
+================================================================================
+
+This project distinguishes between runtime dependencies (code directly used)
+and projects from which conceptual workflows or design patterns were referenced:
+
+--------------------------------------------------------------------------------
+Part A: Direct Runtime Dependencies (Libraries Used in Scripts)
+--------------------------------------------------------------------------------
+The following open-source software packages are included as dependencies and
+invoked during Markdown parsing and PDF generation:
+
+1. KaTeX
+   Repository: https://github.com/KaTeX/KaTeX
+   License: MIT License
+   Copyright (c) 2013-2025 Khan Academy and other contributors
+   Usage: LaTeX mathematical typesetting engine and web fonts.
+
+2. Marked
+   Repository: https://github.com/markedjs/marked
+   License: MIT License
+   Copyright (c) 2011-2025 Christopher Jeffrey and other contributors
+   Usage: High-performance Markdown syntax compiler.
+
+--------------------------------------------------------------------------------
+Part B: Workflow & Conceptual Acknowledgments (No Direct Code Duplicated)
+--------------------------------------------------------------------------------
+The following open-source projects provided conceptual inspiration, workflow
+architecture, and prompt structuring ideas for academic writing skills. Their
+ideas are gratefully acknowledged under the MIT License, though their source code
+has not been directly bundled:
+
+1. aniketkrs/research-paper
+   Repository: https://github.com/aniketkrs/research-paper
+   License: MIT License
+   Copyright (c) 2024-2025 Aniket Kumar
+   Acknowledgment: Inspired the "Plan-Before-Write" structured workflow.
+
+2. lishix520/academic-paper-skills
+   Repository: https://github.com/lishix520/academic-paper-skills
+   License: MIT License
+   Copyright (c) 2024-2025 lishix520
+   Acknowledgment: Referenced multi-stage agent writing workflow patterns.
+
+3. WenyuChiou/academic-writing-skills
+   Repository: https://github.com/WenyuChiou/academic-writing-skills
+   License: MIT License
+   Copyright (c) 2024-2025 Wenyu Chiou
+   Acknowledgment: Referenced academic style guides and review methodologies.
+
+--------------------------------------------------------------------------------
+Standard MIT License Text for Referenced Projects:
+--------------------------------------------------------------------------------
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.

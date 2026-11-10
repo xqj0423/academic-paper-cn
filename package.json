@@ -1,0 +1,33 @@
+{
+  "name": "academic-paper-cn",
+  "version": "0.1.0",
+  "description": "面向中文工科论文的 AI 辅助写作与排版核验 Agent Skill（已在机械工程算例完成端到端验证）",
+  "main": "scripts/build_paper_pdf.js",
+  "bin": {
+    "build-paper-pdf": "./scripts/build_paper_pdf.js"
+  },
+  "scripts": {
+    "demo": "node ./scripts/build_paper_pdf.js ./examples/demo_paper.md ./examples/demo_paper.pdf",
+    "test": "node ./scripts/test_runner.js",
+    "build-pdf": "node ./scripts/build_paper_pdf.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "academic-paper",
+    "engineering",
+    "mechanical-engineering",
+    "katex",
+    "pdf-export",
+    "agent-skills",
+    "antigravity",
+    "codex"
+  ],
+  "author": "xqj0423",
+  "license": "MIT",
+  "dependencies": {
+    "katex": "^0.16.11",
+    "marked": "^15.0.4"
+  }
+}
